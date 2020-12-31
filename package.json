@@ -7,10 +7,10 @@
     "name": "David Spangenberg",
     "email": "busmcrider@gmail.com"
   },
-  "repository": "/SUPERSECRETSAUCE",
+  "repository": "SUPERSECRETSAUCE",
   "scripts": {
-    "docs:dev": "vuepress dev src",
-    "docs:build": "vuepress build src"
+    "docs:dev": "vuepress dev docs:src",
+    "docs:build": "vuepress build docs:src"
   },
   "license": "MIT",
   "devDependencies": {
