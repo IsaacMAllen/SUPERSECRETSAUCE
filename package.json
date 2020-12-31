@@ -12,8 +12,8 @@
     "url": "SUPERSECRETSAUCE"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
   },
   "license": "MIT",
   "devDependencies": {
