@@ -1,5 +1,5 @@
 {
-  "name": "SUPERSECRETSAUCE",
+  "name": "supersecretsauce",
   "version": "0.0.1",
   "description": "David Spangenberg &amp; Isaac Allen Projects",
   "main": "index.js",
@@ -7,14 +7,21 @@
     "name": "David Spangenberg",
     "email": "busmcrider@gmail.com"
   },
-  "repository": "SUPERSECRETSAUCE",
+  "repository": {
+    "type": "git",
+    "url": "SUPERSECRETSAUCE"
+  },
   "scripts": {
-    "docs:dev": "vuepress dev docs:src",
-    "docs:build": "vuepress build docs:src"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3",
+    "vuepress": "^1.7.1",
     "vuepress-theme-succinct": "^1.6.4"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "author": ""
 }
